@@ -1,6 +1,4 @@
-package com.xsis.day02;
-
-import java.util.Scanner;
+package com.xsis.day02.logic;
 
 public class Jawaban {
     public static void main(String[] args) {

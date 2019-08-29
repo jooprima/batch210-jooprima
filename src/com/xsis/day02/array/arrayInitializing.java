@@ -1,4 +1,4 @@
-package com.xsis.day02;
+package com.xsis.day02.array;
 
 public class arrayInitializing {
     public static void main(String[] args) {

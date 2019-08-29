@@ -1,4 +1,4 @@
-package com.xsis.day02;
+package com.xsis.day02.logic;
 
 public class Logic1 {
     public static void main(String[] args) {
