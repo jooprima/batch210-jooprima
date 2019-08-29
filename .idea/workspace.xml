@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="" />
+    <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +18,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Q3rqGrH1lmQFRGldEkbQiZ93PA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xsis_materi/logic01.java" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,9 +39,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Logic10">
-    <configuration name="Logic10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.Logic10" />
+  <component name="RunManager" selected="Application.SkipBilanganGanjil">
+    <configuration name="Jawaban" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.Jawaban" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
@@ -42,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.Logic5" />
+    <configuration name="SearchForNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.SearchForNumber" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.Logic6" />
+    <configuration name="SkipBilanganGanjil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.SkipBilanganGanjil" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.Logic8" />
+    <configuration name="arrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.arrayExample" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.Logic9" />
+    <configuration name="arrayInitializing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.arrayInitializing" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
@@ -96,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Logic10" />
-        <item itemvalue="Application.Logic6" />
-        <item itemvalue="Application.Logic5" />
-        <item itemvalue="Application.Logic9" />
-        <item itemvalue="Application.Logic8" />
+        <item itemvalue="Application.SkipBilanganGanjil" />
+        <item itemvalue="Application.arrayExample" />
+        <item itemvalue="Application.SearchForNumber" />
+        <item itemvalue="Application.arrayInitializing" />
+        <item itemvalue="Application.Jawaban" />
       </list>
     </recent_temporary>
   </component>
@@ -116,5 +127,16 @@
       <updated>1567010309501</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
