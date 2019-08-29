@@ -18,3 +18,7 @@ public class array2Dimensi {
         }
     }
 }
+
+//output :
+//        Search : 6, at position Baris : 1 ,Kolom : 3
+//        Search : 6, at position Baris : 2 ,Kolom : 2
