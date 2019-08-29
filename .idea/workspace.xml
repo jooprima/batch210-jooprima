@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/day02/array2Dimensi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/SkipBilanganGanjil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/SkipBilanganGanjil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/SkipBilanganGanjil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/SkipBilanganGanjil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.practiseArray1">
+  <component name="RunManager" selected="Application.array2Dimensi">
     <configuration name="SearchForNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.day02.SearchForNumber" />
       <module name="jooprima" />
@@ -67,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.arrayExample" />
+    <configuration name="array2Dimensi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.array2Dimensi" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arrayInitializing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.arrayInitializing" />
+    <configuration name="arrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.arrayExample" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.array2Dimensi" />
         <item itemvalue="Application.practiseArray1" />
         <item itemvalue="Application.SkipBilanganGanjil" />
         <item itemvalue="Application.arrayExample" />
         <item itemvalue="Application.SearchForNumber" />
-        <item itemvalue="Application.arrayInitializing" />
       </list>
     </recent_temporary>
   </component>
