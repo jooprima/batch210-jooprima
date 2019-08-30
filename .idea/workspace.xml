@@ -61,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PractiseLogic02">
+  <component name="RunManager" selected="Application.PractiseLogic03">
     <configuration name="Jawaban" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Jawaban" />
       <module name="jooprima" />
@@ -129,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PractiseLogic03" />
         <item itemvalue="Application.PractiseLogic02" />
         <item itemvalue="Application.Practise1" />
-        <item itemvalue="Application.PractiseLogic03" />
         <item itemvalue="Application.Logic6" />
         <item itemvalue="Application.Jawaban" />
       </list>
