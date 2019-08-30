@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="" />
+    <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Jawaban.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/Logic9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/SearchForNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/SkipBilanganGanjil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array2Dimensi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/arrayExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/arrayInitializing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Jawaban.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Jawaban.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic6.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +43,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xsis_materi/logic01.java" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xsis.day02.array" />
+      <recent name="com.xsis.day02.logic" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -36,13 +61,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.array2Dimensi">
-    <configuration name="SearchForNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.SearchForNumber" />
+  <component name="RunManager" selected="Application.PractiseLogic02">
+    <configuration name="Jawaban" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Jawaban" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.*" />
+          <option name="PATTERN" value="com.xsis.day02.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkipBilanganGanjil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.SkipBilanganGanjil" />
+    <configuration name="Logic6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.logic.Logic6" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.*" />
+          <option name="PATTERN" value="com.xsis.day02.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array2Dimensi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.array2Dimensi" />
+    <configuration name="Practise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day03.Practise1" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.*" />
+          <option name="PATTERN" value="com.xsis.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.arrayExample" />
+    <configuration name="PractiseLogic02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day03.PractiseLogic02" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.*" />
+          <option name="PATTERN" value="com.xsis.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practiseArray1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.practiseArray1" />
+    <configuration name="PractiseLogic03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day03.PractiseLogic03" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.*" />
+          <option name="PATTERN" value="com.xsis.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.array2Dimensi" />
-        <item itemvalue="Application.practiseArray1" />
-        <item itemvalue="Application.SkipBilanganGanjil" />
-        <item itemvalue="Application.arrayExample" />
-        <item itemvalue="Application.SearchForNumber" />
+        <item itemvalue="Application.PractiseLogic02" />
+        <item itemvalue="Application.Practise1" />
+        <item itemvalue="Application.PractiseLogic03" />
+        <item itemvalue="Application.Logic6" />
+        <item itemvalue="Application.Jawaban" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +155,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

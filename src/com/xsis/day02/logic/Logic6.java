@@ -9,9 +9,7 @@ public class Logic6 {
         for (int i = 1; i <= n; i++) {
 
 
-            if (i == 3){
-                System.out.print(" "+"*");
-            }else if (i == 6){
+            if (i % 3 == 0){
                 System.out.print(" "+"*");
             }else{
                 System.out.print(" "+y);
