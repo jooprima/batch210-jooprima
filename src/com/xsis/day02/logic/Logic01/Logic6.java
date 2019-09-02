@@ -1,10 +1,10 @@
-package com.xsis.day02.logic;
+package com.xsis.day02.logic.Logic01;
 
 public class Logic6 {
     public static void main(String[] args) {
-        int n = 7;
-        int x = 4;
-        int y = 1;
+        int n = 7; //limit
+        int x = 4; //ratio
+        int y = 1; //nilai awal
 
         for (int i = 1; i <= n; i++) {
 

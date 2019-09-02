@@ -3,17 +3,17 @@ package com.xsis.day02.logic;
 public class Jawaban {
     public static void main(String[] args) {
         Jawaban lg = new Jawaban();
-//         lg.testSoal1(14);
-//        System.out.println();
-//         lg.testSoal2(14);
-//        System.out.println();
-//        lg.testSoal3(7);
-//        System.out.println();
+         lg.testSoal1(14);
+        System.out.println();
+         lg.testSoal2(14);
+        System.out.println();
+        lg.testSoal3(7);
+        System.out.println();
         lg.testSoal5(7);
-//        System.out.println();
-//        lg.testSoal6(7);
-//        System.out.println();
-//        lg.testSoal7(7);
+        System.out.println();
+        lg.testSoal6(7);
+        System.out.println();
+        lg.testSoal7(7);
     }
 
     public void testSoal1(int n) {

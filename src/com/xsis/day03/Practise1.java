@@ -71,7 +71,6 @@ public class Practise1 {
             for (int columns = 0; columns < nums[row].length; columns++) {
                 if (row + columns == 4){
                     System.out.printf("%d ",nums[row][columns]=5);
-                }else if(row==columns){
                     System.out.printf("%d ",nums[row][columns]=5);
                 }else{
                     System.out.printf("%s ","*");

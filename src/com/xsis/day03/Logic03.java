@@ -1,12 +1,12 @@
 package com.xsis.day03;
 
-public class PractiseLogic03 {
+public class Logic03 {
     public static void main(String[] args) {
         //pola array
         int[][] nums = new int[7][7];
 
         //call method
-        PractiseLogic03 arr = new PractiseLogic03();
+        Logic03 arr = new Logic03();
         arr.soal01(nums);
         System.out.println();
 
@@ -16,7 +16,9 @@ public class PractiseLogic03 {
         arr.deret1(7);
         System.out.println();
 
-//        arr.soal011(nums);
+        arr.soal011(nums);
+
+//        arr.deret2();
     }
 
     //membuat method box frame
@@ -102,6 +104,18 @@ public class PractiseLogic03 {
                 System.out.print(a+" ");
             }
             a=a+x;
+        }
+    }
+
+    public void deret2(){
+        int[][] nums = new int[3][3];
+        for (int rows = 0; rows < nums.length; rows++) {
+            for (int column = 0; column < nums.length; column++) {
+                System.out.print(rows);
+                System.out.print(column);
+                System.out.print(" ");
+            }
+            System.out.println();
         }
     }
 }
