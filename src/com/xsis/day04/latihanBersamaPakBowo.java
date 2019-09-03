@@ -5,23 +5,29 @@ public class latihanBersamaPakBowo {
         latihanBersamaPakBowo latihan = new latihanBersamaPakBowo();
 
         latihan.latihan01();
+        System.out.println();
 
 //        latihan.phytagoras(5,7);
-
+//        System.out.println();
+//
 //        latihan.array2d();
+//        System.out.println();
 
 
     }
 
     void latihan01(){
-        int n = 1;
+        int deret = 0;
+        int deret2 = 1;
+
         for (int row = 0; row <=5 ; row++) {
             for (int column = 0; column <= 5; column++) {
-                if (row >= column){
+
+                if (row == column){
+                    deret++;
+                    System.out.print(deret + " ");
+                }else if (row >= column){
                     System.out.print("* ");
-                }else if (row == column){
-                    System.out.print(n);
-                    n += 1;
                 }else if (row <= column){
                     System.out.print("0 ");
                 }

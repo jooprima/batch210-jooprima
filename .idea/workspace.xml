@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/day05/Logic03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/day05/Logic3Soal2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Jawaban.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Jawaban.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Practise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Practise1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/PractiseLogic02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/PractiseLogic03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Jawaban.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Jawaban.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day02/logic/Logic01/Logic9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day03/Practise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day03/Practise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day03/PractiseLogic02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day03/Logic02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day03/PractiseLogic03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day03/Logic03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day04/latihanBersamaPakBowo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day04/latihanBersamaPakBowo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day04/latihanBersamaPakBowo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day04/latihanBersamaPakBowo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +25,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Q3rqGrH1lmQFRGldEkbQiZ93PA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../latihan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xsis_materi/Logic3_soal2.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -70,13 +50,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Logic03">
-    <configuration name="Logic02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day03.Logic02" />
+  <component name="RunManager" selected="Application.Logic03 (1)">
+    <configuration name="Logic03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day05.Logic03" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day03.*" />
+          <option name="PATTERN" value="com.xsis.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day03.Practise1" />
+    <configuration name="Logic3Soal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day05.Logic3Soal2" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day03.*" />
+          <option name="PATTERN" value="com.xsis.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fungsiString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day04.fungsiString" />
-      <module name="jooprima" />
+    <configuration name="Soal_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day04.Logic_3.Soal_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day04.*" />
+          <option name="PATTERN" value="com.xsis.day04.Logic_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Logic03" />
+        <item itemvalue="Application.Logic03 (1)" />
         <item itemvalue="Application.latihanBersamaPakBowo" />
-        <item itemvalue="Application.Practise1" />
-        <item itemvalue="Application.fungsiString" />
+        <item itemvalue="Application.Logic3Soal2" />
+        <item itemvalue="Application.Soal_2" />
+        <item itemvalue="Application.Logic03" />
       </list>
     </recent_temporary>
   </component>
