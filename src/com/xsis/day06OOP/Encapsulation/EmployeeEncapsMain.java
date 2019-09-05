@@ -12,7 +12,7 @@ public class EmployeeEncapsMain {
         // yang ini gabisa dipanggil karna sudah di privat klas,
 //        e3.name = "wanwan";
 
-        e3.setSsn("123123123");
+        e3.setSsn("123e123123");
         e3.print();
 
         System.out.println(e3.getName());

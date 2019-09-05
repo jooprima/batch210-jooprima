@@ -1,6 +1,6 @@
 package com.xsis.day06OOP;
 
-import com.xsis.day06OOP.Overriding.Manager;
+//import com.xsis.day06OOP.Overriding.Manager;
 
 public class EmployeeClient {
     public static void main(String[] args) {
@@ -32,8 +32,8 @@ public class EmployeeClient {
 
 
         //mendefine class constructor this
-        Employee e1 = new Employee("jooptima","12324234");
-        Manager m1 = new Manager("Toing","123-423-1","Programmer");
+//        Employee e1 = new Employee("jooptima","12324234");
+//        Manager m1 = new Manager("Toing","123-423-1","Programmer");
 
 //        Employee.setBaseVacationDays(15);
 //        m1.setExtraVacationDays(10);
@@ -42,8 +42,8 @@ public class EmployeeClient {
 
 
 //                memanggil objek dari class employee .print()
-        e1.print();
-        m1.print("Big Bossss");
+//        e1.print();
+//        m1.print("Big Bossss");
 //        e2.print();
 
     }
