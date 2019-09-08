@@ -2,63 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/Abstract/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/Abstract/EmployeeAbstractDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/Abstract/staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/Inheritance/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/Inheritance/EmployeeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/Inheritance/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/Inheritance/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/Interfaces/EmployeeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/LatihanOOP/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day07/LatihanOOP/EmployeeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/META-INF/jooprima.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/META-INF/jooprima.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day01/Gaya.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day01/Gaya.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day01/Speed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day01/Speed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day01/Speed2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day01/Speed2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day01/Speed3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day01/Speed3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/SearchForNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/SearchForNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/SkipBilanganGanjil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/SkipBilanganGanjil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/array2Dimensi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/array2Dimensi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/arrayExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/arrayExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/arrayInitializing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/arrayInitializing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/practiseArray1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/array/practiseArray1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Jawaban.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Jawaban.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day02/logic/Logic01/Logic9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Logic02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Logic02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Logic03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Logic03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Practise1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Practise1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day04/Fisika.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day04/Fisika.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day04/fungsiString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day04/fungsiString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day04/latihanBersamaPakBowo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day04/latihanBersamaPakBowo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day05/Logic03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day05/Logic03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day05/Logic3Soal2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day05/Logic3Soal2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/CarMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/CarMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Encapsulation/EmployeeEncaps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Encapsulation/EmployeeEncaps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Encapsulation/EmployeeEncapsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Encapsulation/EmployeeEncapsMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Inheritance/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Inheritance/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Inheritance/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Inheritance/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Inheritance/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Inheritance/C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Inheritance/SampleInherit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Inheritance/SampleInherit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Logic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/Logic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/LogicMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/LogicMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/LogicMethod2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day06OOP/LogicMethod2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day06OOP/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day06OOP/EmployeeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day06OOP/Encapsulation/EmployeeEncapsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day06OOP/Encapsulation/EmployeeEncapsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day06OOP/Overriding/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day06OOP/Overriding/EmployeeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day06OOP/Overriding/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day06OOP/Overriding/Manager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kelasTerbuka/TutorialJava/11-konversi tipe data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kelasTerbuka/TutorialJava/33-looping bersarang" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -115,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EmployeeAbstractDemo">
-    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day06OOP.CarMain" />
+  <component name="RunManager" selected="Application.Soal06">
+    <configuration name="Logic03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day05.Logic03" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day06OOP.Inheritance.*" />
+          <option name="PATTERN" value="com.xsis.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeAbstractDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day07.Abstract.EmployeeAbstractDemo" />
+    <configuration name="Soal03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal03" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day07.Abstract.*" />
+          <option name="PATTERN" value="com.xsis.quiz.Logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day07.Inheritance.EmployeeDemo" />
+    <configuration name="Soal04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal04" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day07.Inheritance.*" />
+          <option name="PATTERN" value="com.xsis.quiz.Logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day07.LatihanOOP.EmployeeDemo" />
+    <configuration name="Soal06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal06" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day07.LatihanOOP.*" />
+          <option name="PATTERN" value="com.xsis.quiz.Logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practiseArray1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day02.array.practiseArray1" />
+    <configuration name="Soal07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal07" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day02.array.*" />
+          <option name="PATTERN" value="com.xsis.quiz.Logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeAbstractDemo" />
-        <item itemvalue="Application.EmployeeDemo" />
-        <item itemvalue="Application.EmployeeDemo (1)" />
-        <item itemvalue="Application.practiseArray1" />
-        <item itemvalue="Application.CarMain" />
+        <item itemvalue="Application.Soal06" />
+        <item itemvalue="Application.Soal04" />
+        <item itemvalue="Application.Soal07" />
+        <item itemvalue="Application.Logic03" />
+        <item itemvalue="Application.Soal03" />
       </list>
     </recent_temporary>
   </component>
