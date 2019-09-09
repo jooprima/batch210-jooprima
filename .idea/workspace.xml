@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz/Logic/Soal01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz/Logic/Soal01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Logic/Soal01.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Soal09">
+  <component name="RunManager" selected="Application.Soal10">
     <configuration name="Soal01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal01" />
       <module name="jooprima" />
@@ -103,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Soal06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal06" />
-      <module name="jooprima" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xsis.quiz.Logic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Soal09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal09" />
       <module name="jooprima" />
@@ -129,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Soal10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal10" />
+      <module name="jooprima" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsis.quiz.Logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Soal10" />
         <item itemvalue="Application.Soal09" />
         <item itemvalue="Application.Soal04" />
         <item itemvalue="Application.Soal05" />
         <item itemvalue="Application.Soal01" />
-        <item itemvalue="Application.Soal06" />
       </list>
     </recent_temporary>
   </component>
