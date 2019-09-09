@@ -19,14 +19,16 @@ public class Soal01 {
 
         //memasukan nilai inputan kedalam variable cash
         cash = inputUser.nextInt();
-        System.out.println("Uang cash anda adalah : " + cash);
-        System.out.println("Harga produk adalah : " + hargaProduk);
+        System.out.println("Uang cash anda : " + cash);
+        System.out.println("Harga produk : " + hargaProduk);
 
         //operasi cash register
-        kembalian = cash - hargaProduk;
-
-        System.out.println("Uang kembalian anda adalah : " + kembalian);
-
+        if (cash < hargaProduk){
+            System.out.println("Maaf uang anda tidak cukup......");
+        }else{
+            kembalian = cash - hargaProduk;
+            System.out.println("Uang kembalian anda adalah : " + kembalian);
+        }
     }
 
 }
