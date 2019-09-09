@@ -1,0 +1,38 @@
+--soal 01
+set search_path to "HumanResource"
+select * from employees
+
+alter table employees add column tax numeric(8,2)
+
+--soal 02
+update employees set tax = salary * 0.1
+select * from employees
+
+--soal 3
+update employees set tax = 0
+where salary <= 7000
+
+--soal 4 //menampilkan total gaji(salary-tax)
+SELECT employee_id,
+		first_name||' '||last_name full_name,
+		salary,
+		tax,
+		(salary-tax) as total_gaji
+FROM employees
+
+--soal 05 //menampilkan total pegawai dari masing2 department
+select b.department_name,
+		count(employee_id) total_pegawai
+from employees a,
+		departments b
+where a.department_id = b.department_id
+and a.department_id is not null
+group by a.department_id, b.department_name
+order by total_pegawai
+
+--soal 06
+
+
+
+
+

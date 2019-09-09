@@ -1,0 +1,14 @@
+set search_path to "HumanResource"
+
+--practise 01
+select first_name||' '||last_name full_name, to_char(hire_date, 'DD/MON/YYYY') hire_date,age(now(),hire_date)  masa_kerja
+from employees
+
+--practise 02
+
+select d.country_name,d.city,a.department_id,b.department_name,count(employee_id)total_employee
+from employees a,departments b,
+(select a.region_id,a.region_name,b.country_id,country_name,city,c.location_id
+from regions a,countries b,locations c
+where a.region_id = b.region_id
+and b.country_id = c.country_id)

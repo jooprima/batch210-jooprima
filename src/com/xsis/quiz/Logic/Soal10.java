@@ -12,12 +12,14 @@ public class Soal10 {
         Scanner inputUser = new Scanner(System.in);
         System.out.println("please enter the value : ");
 
+        //membuat perulangan untuk memasukan value ke dalam array
         for (int i = 0; i < 5; i++) {
             arr[i] = inputUser.nextInt();
         }
 
         max = arr[0]; //inisialisasi
 
+        //operasi largest
         for (int i = 0; i < 5; i++) {
             if (max < arr[i]){ // jika largest number found
                 max = arr[i]; //mengupdate value of max

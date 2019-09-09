@@ -3,15 +3,15 @@ package com.xsis.quiz.Logic;
 public class Soal05 {
 
     public static void main(String[] args){
-        new Soal05().palindrome("8009");
+        new Soal05().palindrome("1456541");
     }
 
     private void palindrome(String teks){
         String kalimat = "";
-        int maxT = teks.length();
+        int max = teks.length();
         for(int i=0;i<teks.length();i++){
-            String test1 = teks.substring(maxT-1, maxT);
-            maxT--;
+            String test1 = teks.substring(max-1, max);
+            max--;
             kalimat += test1;
         }
 
