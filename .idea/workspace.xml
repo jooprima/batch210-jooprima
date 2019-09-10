@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz/Teori/Quiz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day08/Factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day08/PatternV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day08/PatternWave.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day08/SortingIncrease.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day10/PatternWave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day10/PatternWave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz/SQL/Quiz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz/SQL/Quiz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,19 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logic02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day03.Logic02" />
-      <module name="jooprima" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xsis.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PatternV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.day10.PatternV" />
       <module name="jooprima" />
@@ -130,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortingIncrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day10.SortingIncrease" />
+      <module name="jooprima" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xsis.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Soal02" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.SortingIncrease" />
         <item itemvalue="Application.PatternWave" />
         <item itemvalue="Application.PatternV" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Logic02" />
       </list>
     </recent_temporary>
   </component>

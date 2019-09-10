@@ -1,0 +1,43 @@
+1. How JVM Works ?
+    jawab :
+
+
+2. Perbedaan Class vs Object.
+    jawab :
+        - Dalam konteks OOP, objek adalah instansiasi (yang dibentuk secara seketika) dari
+            kelas pada saat eksekusi (seperti halnya deklerasi variabel pada pemograman prosedural).
+        - Jadi semua objek adalah instance dari kelas.
+        - Obyek merupakan hasil instansiasi dari suatu kelas.
+        - Sehingga kelas digunakan untuk menciptakan banyak objek
+        - Proses pembentukan obyek dari suatu class disebut dengan instantiation.
+        - Obyek disebut juga instances.
+
+3. Sebutkan empat component utama Class ?
+    jawab :
+        • Nama
+            – Kelas harus memiliki nama yg membedakan dari kelas lainya.
+        • Attribut
+            – Kelas dapat memiliki sejumlah attribut atau tidak sama sekali
+            – Attribut merepresentasikan suatu properti dari sesuatu yg dimodelkan
+        • Operasi (method)
+            – Operasi merupakan implementasi layanan yg dapat diinta dari suatu objek
+            – Operasi merupakan abstraksi dari sesuatu yang dapat dilakukan objek.
+            – Kelas dapat memiliki sejumlah operasi atau tidak sama sekali
+        • Responsibilities
+            – Kelas yg berisi sejumlah attribut dan operasi merupakan manifestasi tanggungjawab yg diembanya
+            untuk dilaksanakan.
+
+
+4. Apa kegunaan package di java ?
+    jawab :
+        Sebagai sarana untuk mengelompokkan atau mengorganisasikan kelas dan interface yang sama atau sekelompok
+        menjadi satu unit tunggal dalam library.
+
+     cara agar class a dapat dipanggil di class ADemo :
+        dengan cara membuat object baru/(instance) dari kelas a di method main class a demo
+
+
+5. Jelaskan perbedaan static variable, instance variable, locale variable, instance method dan
+    method static ?
+    jawab :
+

@@ -31,7 +31,15 @@ group by a.department_id, b.department_name
 order by total_pegawai
 
 --soal 06
-
+select a.employee_id,
+		a.first_name,
+		a.last_name,
+		b.job_title,
+		a.salary,
+		b.min_salary,
+		b.max_salary
+from employees a,jobs b
+where a.job_id = b.job_id
 
 
 
