@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day08/PatternWave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Logic02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day03/Logic02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/day03/Logic02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day03/Logic02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day08/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day08/PatternV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day08/PatternWave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/day08/SortingIncrease.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day10/PatternWave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day10/PatternWave.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kelasTerbuka/TutorialJava" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kelasTerbuka/TutorialJava/33-looping bersarang" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -62,13 +64,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PatternWave">
+  <component name="RunManager" selected="Application.Soal02">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day08.Factorial" />
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day10.Factorial" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day08.*" />
+          <option name="PATTERN" value="com.xsis.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="PatternV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day08.PatternV" />
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day10.PatternV" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day08.*" />
+          <option name="PATTERN" value="com.xsis.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +105,11 @@
       </method>
     </configuration>
     <configuration name="PatternWave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day08.PatternWave" />
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day10.PatternWave" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day08.*" />
+          <option name="PATTERN" value="com.xsis.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Soal01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal01" />
+    <configuration name="Soal02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal02" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Soal02" />
         <item itemvalue="Application.PatternWave" />
-        <item itemvalue="Application.Logic02" />
         <item itemvalue="Application.PatternV" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Soal01" />
+        <item itemvalue="Application.Logic02" />
       </list>
     </recent_temporary>
   </component>

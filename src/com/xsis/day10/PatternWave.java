@@ -4,8 +4,8 @@ public class PatternWave {
 
     public static void main(String[] args) {
 
-        int tinggiWave = 4; //ubah value untuk merubah tinggi wave
-        int lebarWave = 5; //ubah value untuk merubah lebar value
+        int tinggiWave = 3; //ubah value untuk merubah tinggi wave
+        int lebarWave = 1; //ubah value untuk merubah lebar value
         int tw = tinggiWave - 1; //untuk kondisi loop
         int x = tw; // if kondisi untuk print
 
