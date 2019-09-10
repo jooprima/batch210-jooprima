@@ -1,6 +1,4 @@
-package com.xsis.day08;
-
-import java.util.jar.JarOutputStream;
+package com.xsis.day10;
 
 public class PatternV {
 
