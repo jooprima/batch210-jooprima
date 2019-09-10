@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day08/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day08/PatternV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day08/SortingIncrease.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/day08/PatternV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/day08/PatternV.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
