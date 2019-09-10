@@ -24,13 +24,13 @@ public class Logic02 {
 //        System.out.println();
 //        System.out.println();
 //
-//        System.out.println("-----------SOAL05-----------");
-//        practice.soal5();
-//        System.out.println();
-//
-//        System.out.println("-----------SOAL06-----------");
-//        practice.soal6();
-//        System.out.println();
+        System.out.println("-----------SOAL05-----------");
+        practice.soal5();
+        System.out.println();
+
+        System.out.println("-----------SOAL06-----------");
+        practice.soal6();
+        System.out.println();
 
     }
 
