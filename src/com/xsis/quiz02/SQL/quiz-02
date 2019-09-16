@@ -1,0 +1,142 @@
+--soal 01
+create table student(
+	nim int primary key,
+	nama varchar(25),
+	jurusan varchar(25),
+	tahun_masuk varchar(10),
+	ipk numeric(5,2)
+)
+
+create table course(
+	course_id varchar(10) primary key,
+	course_desc varchar(30)
+)
+
+create table student_course(
+	stuc_id serial primary key,
+	course_id varchar(10),
+	nim int
+)
+
+create table course_semester(
+	cose_id serial,
+	course_id varchar(10) primary key,
+	semester int,
+	lecture varchar(20)
+)
+
+create table lectures(
+	lecture_id varchar(20),
+	lecture_name varchar(30),
+	lecture_graduate varchar(10)
+)
+
+create table course_exam(
+	coex_id serial primary key,
+	course_id varchar(10),
+	coex_quiz int,
+	nim int
+)
+
+-- soal 02
+ALTER TABLE student_course ADD FOREIGN KEY (course_id) REFERENCES course_semester(course_id);
+
+alter table course add foreign key (course_id) references course_semester(course_id);
+
+alter table course_exam add foreign key (course_id) references course_semester(course_id)
+
+alter table student_course add foreign key (nim) references student(nim)
+
+alter table course_exam add foreign key (nim) references student(nim)
+
+--kerjakan nomer 03 terlebih dahulu
+alter table lectures add foreign key (lecture_id) references course_semester(lecture)
+
+
+
+-- soal 03
+ALTER TABLE course_semester ADD UNIQUE (course_id)
+
+--ALTER TABLE course_semester ADD UNIQUE (semester)
+
+--ALTER TABLE course_semester ADD UNIQUE (lecture)
+
+ALTER TABLE course_semester DROP CONSTRAINT lecture
+
+ALTER TABLE course_semester DROP COLUMN lecture CASCADE
+
+ALTER TABLE course_semester ADD COLUMN semester int
+ALTER TABLE course_semester ADD COLUMN lecture varchar(20)
+
+
+-- soal 04
+INSERT INTO student (nim,nama,jurusan,tahun_masuk)
+		VALUES (6131901,'Nondi','Informatika','2017'),
+			(6131902,'Novli','Komputer','2017'),
+			(6131903,'Fachri A','Informatika','2017'),
+			(6131904,'Fahri N','Fisika','2018'),
+			(6131905,'Faiz','Informatika','2018'),
+			(6131906,'Rere','Komputer','2019'),
+			(6131907,'Reihan','Elektro','2019'),
+			(6131908,'Yoan','Sistem Informasi','2017'),
+			(6131909,'jo','Network','2017');
+
+insert into course_semester(course_id,semester,lecture)
+	values('A001',1,'L01'),
+		('A002',1,'L02'),
+		('A010',2,'L01'),
+		('A011',3,'L03');
+
+insert into course values('A001','Matematika'),
+	('A002','Fisika'),
+	('A011','Komunikasi Data'),
+	('A010','Agama')
+
+insert into student_course(course_id,nim)
+	values('A001',6131901),
+		('A002',6131901),
+		('A011',6131906),
+		('A010',6131905)
+
+insert into course_exam(course_id,coex_quiz,nim)
+	values('A001',75,6131909),
+		('A001',74,6131909)
+
+insert into lectures values('L01','Asep','S3'),
+	('L02','Mahmuy','S3'),
+	('L03','Suwito','S2')
+
+
+--soal 05
+        select a.nim,
+            a.nama,
+            a.jurusan,
+            b.course_id,
+            c.course_desc as "mata kuliah"
+        from student a,
+            student_course b,
+            course c
+        where a.nim = b.nim
+        and b.course_id = c.course_id
+
+
+--soal 06
+select a.lecture_name,
+	a.lecture_id,
+	c.course_desc,
+	count(lecture_name)
+from lectures a,
+	course_semester b,
+	course c
+where a.lecture_id = b.lecture
+and b.course_id = c.course_id
+group by a.lecture_name,
+	a.lecture_id,
+	c.course_desc
+
+
+
+
+
+
+

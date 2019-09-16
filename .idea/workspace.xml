@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/day10/LargestArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz02/Logic/Soal01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz02/Logic/Soal01/StudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz02/Logic/Soal02/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz02/Logic/Soal02/AccountDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz02/SQL/quiz-02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kelasTerbuka/TutorialJava/33-looping bersarang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kelasTerbuka/TutorialJava/60-ProjectCRUD-menu dan read data" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -60,13 +64,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LargestArray">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day10.Factorial" />
+  <component name="RunManager" selected="Application.AccountDemo">
+    <configuration name="AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz02.Logic.Soal02.AccountDemo" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day10.*" />
+          <option name="PATTERN" value="com.xsis.quiz02.Logic.Soal02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day10.LargestArray" />
+    <configuration name="Latihan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.day11.Latihan" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day10.*" />
+          <option name="PATTERN" value="com.xsis.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternWave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day10.PatternWave" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jo.Main" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day10.*" />
+          <option name="PATTERN" value="jo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Soal02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz.Logic.Soal02" />
+    <configuration name="Soal01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz01.Soal01" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.quiz.Logic.*" />
+          <option name="PATTERN" value="com.xsis.quiz01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingIncrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.day10.SortingIncrease" />
+    <configuration name="Soal02 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz01.Soal02" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.day10.*" />
+          <option name="PATTERN" value="com.xsis.quiz01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LargestArray" />
-        <item itemvalue="Application.Soal02" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.SortingIncrease" />
-        <item itemvalue="Application.PatternWave" />
+        <item itemvalue="Application.AccountDemo" />
+        <item itemvalue="Application.Soal02 (1)" />
+        <item itemvalue="Application.Soal01" />
+        <item itemvalue="Application.Latihan" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
