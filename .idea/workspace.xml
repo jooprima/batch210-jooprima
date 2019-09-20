@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz03/Logic/Barang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz03/Logic/cashRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/RecursiveBercabang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/Rekursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/Soal04/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal01/Komik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal01/RentalKomik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal02/Ongkir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal02/ProgramOngkir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal03/LargestInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal05/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal07/LongestWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal08/JumlahKata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz04/soal09/JumlahHurufVocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz05/quiz05Recursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/KonvresiMeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/NilaiRatarata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/RockScisorPaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal01/GajiPerBulan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal02/jumlahHuruf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal03/LargestNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz02/Logic/Soal01/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz02/Logic/Soal01/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz02/Logic/Soal01/StudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz02/Logic/Soal01/StudentDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz06/KonvresiMeter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz06/NilaiRatarata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz06/RockScisorPaper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xsis/quiz06/soal04/RockScisorPaper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal04/RockScisorPaper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NilaiRatarata">
+  <component name="RunManager" selected="Application.RockScisorPaper">
     <configuration name="GajiPerBulan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal01.GajiPerBulan" />
       <module name="jooprima" />
@@ -136,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jumlahHuruf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal02.jumlahHuruf" />
+    <configuration name="RockScisorPaper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal04.RockScisorPaper" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.quiz06.soal02.*" />
+          <option name="PATTERN" value="com.xsis.quiz06.soal04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RockScisorPaper" />
         <item itemvalue="Application.NilaiRatarata" />
         <item itemvalue="Application.GajiPerBulan" />
         <item itemvalue="Application.LargestNumber" />
         <item itemvalue="Application.KonvresiMeter" />
-        <item itemvalue="Application.jumlahHuruf" />
       </list>
     </recent_temporary>
   </component>
