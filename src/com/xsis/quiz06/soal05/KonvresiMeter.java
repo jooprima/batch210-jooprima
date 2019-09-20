@@ -13,7 +13,7 @@ public class KonvresiMeter {
         double meter = sc.nextDouble();
 
         while (loop){
-            System.out.println("1.\tConvert to Kilometers");
+            System.out.println("\n1.\tConvert to Kilometers");
             System.out.println("2.\tConvert to inches");
             System.out.println("3.\tConvert to feets");
             System.out.println("4.\tQuit");
