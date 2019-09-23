@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5708b478-8a64-4610-adf9-5aa528d49c45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal07/KaloriKue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal08/CountDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal09/SortCity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz06/soal05/KonvresiMeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz06/soal05/KonvresiMeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz06/soal02/jumlahHuruf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jooprima/com/xsis/quiz06/soal02/jumlahHuruf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xsis/quiz06/soal02/jumlahHuruf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal02/jumlahHuruf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xsis/quiz06/soal05/KonvresiMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xsis/quiz06/soal05/KonvresiMeter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../xsis_materi/quiz/ft1-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -63,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.jumlahHuruf">
-    <configuration name="GajiPerBulan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal01.GajiPerBulan" />
+  <component name="RunManager" selected="Application.The_book_Exercises">
+    <configuration name="CountDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal08.CountDay" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.quiz06.soal01.*" />
+          <option name="PATTERN" value="com.xsis.quiz06.soal08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KonvresiMeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal05.KonvresiMeter" />
+    <configuration name="File_10_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.File_10_1" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.quiz06.soal05.*" />
+          <option name="PATTERN" value="Chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NilaiRatarata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal06.NilaiRatarata" />
+    <configuration name="File_9_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter09.File_9_2" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.quiz06.soal05.*" />
+          <option name="PATTERN" value="Chapter09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockScisorPaper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal04.RockScisorPaper" />
+    <configuration name="SortCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal09.SortCity" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.quiz06.soal04.*" />
+          <option name="PATTERN" value="com.xsis.quiz06.soal09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jumlahHuruf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xsis.quiz06.soal02.jumlahHuruf" />
+    <configuration name="The_book_Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="the_book_exercises.The_book_Exercises" />
       <module name="jooprima" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xsis.quiz06.soal02.*" />
+          <option name="PATTERN" value="the_book_exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.jumlahHuruf" />
-        <item itemvalue="Application.KonvresiMeter" />
-        <item itemvalue="Application.RockScisorPaper" />
-        <item itemvalue="Application.NilaiRatarata" />
-        <item itemvalue="Application.GajiPerBulan" />
+        <item itemvalue="Application.The_book_Exercises" />
+        <item itemvalue="Application.File_10_1" />
+        <item itemvalue="Application.File_9_2" />
+        <item itemvalue="Application.SortCity" />
+        <item itemvalue="Application.CountDay" />
       </list>
     </recent_temporary>
   </component>
