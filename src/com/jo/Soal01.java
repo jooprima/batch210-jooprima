@@ -6,7 +6,7 @@ public class Soal01 {
     }
 
     public static void Resolve(String name, String inputString) {
-        int[] arInt = Utility.stringToInt(inputString);
+        int[] arInt = jo.Utility.stringToInt(inputString);
         int orderTotal = 0;
 
         for (int i = 0; i < arInt.length; i++) {

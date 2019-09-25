@@ -24,7 +24,7 @@ public class Soal10 {
             arrInt[1] = 1;
         }
 
-        Utility.sortAscending(arrInt);
+        jo.Utility.sortAscending(arrInt);
         for (int i = 0; i < arrInt.length; i++) {
             if(arrInt[i] != 0){
                 System.out.print(arrInt[i]+" ");

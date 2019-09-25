@@ -1,0 +1,95 @@
+--Soal 01 Tampilkan mahasiswa yang mengambil jurusan yang pengajar nya adalah dosen honorer.
+select nama_mahasiswa,
+	a.kode_jurusan,
+	nama_dosen,
+	d.kode_type_dosen,
+	deskripsi,
+	nama_jurusan
+from mahasiswa a,
+	dosen b,
+	jurusan c,
+	type_dosen d
+where a.kode_jurusan = b.kode_jurusan
+	and a.kode_jurusan = c.kode_jurusan
+	and b.kode_type_dosen = d.kode_type_dosen
+	and b.kode_type_dosen = 'T002'
+
+
+
+-- Soal 02 Tampilkan mahasiswa dan nilai ujian nya, dimana dosen nya memiliki status sebagai dosen tetap.
+select a.kode_mahasiswa,
+	nama_mahasiswa,
+	alamat,
+	a.kode_jurusan,
+	e.nama_jurusan,
+	nama_ujian,
+	nilai
+from mahasiswa a,
+	nilai b,
+	dosen c,
+	type_dosen d,
+	jurusan e,
+	ujian f
+where a.kode_mahasiswa = b.kode_mahasiswa
+	and a.kode_jurusan = e.kode_jurusan
+	and a.kode_jurusan = c.kode_jurusan
+	and c.kode_jurusan = e.kode_jurusan
+	and c.kode_type_dosen = d.kode_type_dosen
+	and b.kode_ujian = f.kode_ujian
+	and c.kode_type_dosen = 'T001'
+
+
+--Soal 03 Tampilkan total siswa yang mengikuti ujian seperti di screen:
+select count (kode_dosen)
+from dosen a,jurusan b,type_dosen c
+where a.kode_jurusan=b.kode_jurusan and
+a.kode_type_dosen = c.kode_type_dosen and status_jurusan='Aktif'
+
+select count (a.kode_mahasiswa) total
+from mahasiswa a,nilai b
+where a.kode_mahasiswa = b.kode_mahasiswa
+
+select a.kode_ujian,
+	nama_ujian
+from ujian a,
+	mahasiswa b,
+	nilai c
+where b.kode_mahasiswa = c.kode_mahasiswa
+	and a.kode_ujian = c.kode_ujian
+
+--jawaban 03
+select kode_ujian,
+	nama_ujian,
+	(select count (c.kode_mahasiswa) total
+	from ujian a,
+	 	mahasiswa b,
+		nilai c
+	where b.kode_mahasiswa = c.kode_mahasiswa
+		and a.kode_ujian = c.kode_ujian
+		and a.kode_ujian = x.kode_ujian) as total_siswa
+		from ujian x
+
+--Soal 04 Tampilkan siswa yang mengikuti ujian dimana total siswa nya paling banyak atau maximum (mengacu ke nomor 3).
+select a.kode_mahasiswa,
+	nama_mahasiswa,
+	nilai
+from mahasiswa a,
+	nilai b
+where a.kode_mahasiswa = b.kode_mahasiswa
+limit 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
