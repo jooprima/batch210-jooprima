@@ -1,0 +1,36 @@
+select * from mahasiswa
+
+select * from agama
+
+--menjadikan / menghapus kolom kode agama menjadi unique dan primary key
+alter table agama add constraint kode_agama_uq unique (kode_agama);
+
+alter table agama drop constraint kode_agama_uq
+
+alter table agama add constraint kode_agama_pk primary key (kode_agama);
+
+select * from agama
+
+--update agama budha menjadi agama 6
+update agama set deskripsi = 'agama 6'
+where kode_agama = 'A005'
+
+
+update agama set deskripsi = upper (deskripsi)
+update agama set deskripsi = lower (deskripsi)
+update agama set deskripsi = initcap (deskripsi)
+
+update agama set deskripsi = deskripsi || '- Agama Baru'
+where kode_agama = 'A005'
+
+select * from agama
+
+update agama set deskripsi = replace (deskripsi,'- Agama', '')
+where kode_agama = 'A005'
+
+insert into agama values ('A006', 'Budha')
+insert into agama values ('A007')
+
+delete from agama where kode_agama ='A007'
+
+

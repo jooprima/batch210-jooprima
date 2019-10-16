@@ -7,6 +7,8 @@ public class SkipBilanganGanjil {
             if (nums[i] % 2 == 0){
                 System.out.println(nums[i] + " is Genap");
                 continue;
+            }else {
+                System.out.println(nums[i] + " is ganjil");
             }
         }
     }

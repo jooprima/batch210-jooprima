@@ -1,0 +1,121 @@
+select* from dosen
+select* from jurusan
+select * from type_dosen
+
+select kode_dosen,
+       nama_dosen,
+       nama_jurusan,
+       status_jurusan,
+       deskripsi
+from dosen a,
+     jurusan b,
+     type_dosen c
+where a.kode_jurusan=b.kode_jurusan
+and a.kode_type_dosen = c.kode_type_dosen
+
+select kode_dosen,
+        nama_dosen,
+        nama_jurusan,
+        status_jurusan,
+        deskripsi
+from dosen a,
+    jurusan b,
+    type_dosen c
+where a.kode_jurusan=b.kode_jurusan
+and a.kode_type_dosen = c.kode_type_dosen
+and status_jurusan='Aktif'
+
+
+select kode_jurusan,
+        nama_jurusan,
+        0 honorer,
+        0 tetap,
+        0expertise
+from jurusan
+
+select kode_dosen,
+        nama_dosen,
+        nama_jurusan,
+        status_jurusan,
+        deskripsi,
+        a.kode_jurusan,
+        c.kode_type_dosen
+from dosen a,
+     jurusan b,
+     type_dosen c
+where a.kode_jurusan=b.kode_jurusan
+and a.kode_type_dosen = c.kode_type_dosen
+and status_jurusan='Aktif'
+
+select count (kode_dosen)
+from dosen a,
+     jurusan b,
+     type_dosen c
+where a.kode_jurusan=b.kode_jurusan
+and a.kode_type_dosen = c.kode_type_dosen
+and status_jurusan='Aktif'
+
+select kode_jurusan,
+        nama_jurusan,
+            (select count (kode_dosen)
+                from dosen a,
+                     jurusan b,
+                     type_dosen c
+                where a.kode_jurusan=b.kode_jurusan
+                and a.kode_type_dosen = c.kode_type_dosen
+                and status_jurusan='Aktif'
+                and c.kode_type_dosen ='T002'
+                and b.kode_jurusan = x.kode_jurusan)honorer,
+                (select count (kode_dosen)
+                    from dosen a,
+                        jurusan b,
+                        type_dosen c
+                    where a.kode_jurusan=b.kode_jurusan
+                    and a.kode_type_dosen = c.kode_type_dosen
+                    and status_jurusan='Aktif'
+                    and c.kode_type_dosen ='T001'
+                    and b.kode_jurusan = x.kode_jurusan)tetap,
+                    (select count (kode_dosen)
+                        from dosen a,
+                            jurusan b,
+                            type_dosen c
+                        where a.kode_jurusan=b.kode_jurusan
+                        and a.kode_type_dosen = c.kode_type_dosen
+                        and status_jurusan='Aktif'
+                        and c.kode_type_dosen ='T003'
+                        and b.kode_jurusan = x.kode_jurusan)expertise
+                        from jurusan x
+
+
+select kode_jurusan,
+        nama_jurusan,
+        status_jurusan,
+        (select count (kode_dosen)
+            from dosen a,
+                jurusan b,
+                type_dosen c
+            where a.kode_jurusan=b.kode_jurusan
+            and a.kode_type_dosen = c.kode_type_dosen
+            and status_jurusan='Aktif'
+            and c.kode_type_dosen ='T002'
+            and b.kode_jurusan = x.kode_jurusan)honorer,
+        (select count (kode_dosen)
+            from dosen a,
+                jurusan b,
+                type_dosen c
+            where a.kode_jurusan=b.kode_jurusan
+            and a.kode_type_dosen = c.kode_type_dosen
+            and status_jurusan='Aktif'
+            and c.kode_type_dosen ='T001'
+            and b.kode_jurusan = x.kode_jurusan)tetap,
+        (select count (kode_dosen)
+            from dosen a,jurusan b,type_dosen c
+            where a.kode_jurusan=b.kode_jurusan
+            and a.kode_type_dosen = c.kode_type_dosen
+            and status_jurusan='Aktif'
+            and c.kode_type_dosen ='T003'
+            and b.kode_jurusan = x.kode_jurusan)expertise
+            from jurusan x
+            where status_jurusan ='Aktif'
+
+

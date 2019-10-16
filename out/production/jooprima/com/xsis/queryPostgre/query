@@ -1,0 +1,49 @@
+--alter table
+ALTER TABLE regions ADD COLUMN region_x VARCHAR(25);
+ALTER TABLE regions RENAME COLUMN region_x TO region_y;
+ALTER TABLE regions DROP COLUMN region_x;
+ALTER TABLE regions ALTER COLUMN region_y TYPE VARCHAR(30); //modify
+
+ALTER TABLE regions ADD CONSTRAINT region_id PRIMARY KEY(region_id);
+ALTER TABLE regions DROP CONSTRAINT region_id;
+ALTER TABLE country ADD CONSTRAINT country_region_id
+    FOREIGN KEY(region_id) REFERENCES regions(region_id);
+
+UPDATE regions SET region_name = 'Antartika'
+    WHERE region_id = 5;
+
+--join
+    select a.region_id,a.region_name,country_name
+    from regions a, countries b
+    where a.region_id=b.region_id
+    and a.region_id=1
+    order by a.region_id
+
+--count
+select manager_id,count(employee_id)
+from employees
+group by manager_id
+
+--sum
+select department_id, sum(salary)salary
+from employees
+group by department_id
+
+--group by
+select department_id, sum(salary)salary
+from employees
+group by department_id
+having sum(salary) <= 6500
+
+--like%
+select employee_id,first_name,last_name,salary
+from employees
+where first_name like 'Da%'
+
+--subquery
+select *
+from departments
+where location_id in
+(select location_id from locations a,countries b
+where a.country_id= b.country_id
+and b.region_id=1)
